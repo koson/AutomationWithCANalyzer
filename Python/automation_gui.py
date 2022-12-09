@@ -232,7 +232,7 @@ class AutomationGUI:
                             self.log_window.insert_text(line.split("\n")[0].strip() + " = IGN ACC ------ OK\n")
 
                 self.log_window.insert_text("Test finished. TDK is CLOSED\n")
-            print "should close"
+            print ("should close")
             tdk_stat.close()
 
     def get_value_from_combobox(self, serial_combobox):
